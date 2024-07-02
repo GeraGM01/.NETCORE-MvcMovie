@@ -14,6 +14,6 @@ namespace MvcMovie.Data
         {
         }
 
-        public DbSet<MvcMovie.Models.Movie> Movie { get; set; } = default!;
+        public DbSet<MvcMovie.Models.Movie> Movie { get; set; } = default!;  //Propiedad que representa las peliculas de la base de datos 
     }
 }
